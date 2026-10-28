@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVida - Cuidemos nuestro planeta</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>EcoVida</h1>
+        <p>Cuidemos nuestro planeta, una acción a la vez.</p>
+    </header>
+
+    <!-- MENÚ -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#acciones">Acciones</a>
+        <a href="#importancia">Importancia</a>
+    </nav>
+
+
+
+    <!-- SECCIÓN PRINCIPAL -->
+    <main>
+
+        <section id="inicio" class="bienvenida">
+
+            <div class="texto-principal">
+                <h2>Pequeñas acciones, grandes cambios</h2>
+
+                <p>
+                    Cada persona puede contribuir al cuidado del medio ambiente
+                    mediante acciones sencillas que podemos realizar todos los días.
+                </p>
+
+                <button>Conoce más</button>
+            </div>
+
+            <div class="imagen-principal">
+                <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80"
+                    alt="Persona reciclando">
+            </div>
+
+        </section>
+
+
+        <!-- ACCIONES -->
+        <section id="acciones">
+
+            <h2 class="titulo-seccion">Tres acciones para cuidar el planeta</h2>
+
+            <div class="contenedor-tarjetas">
+
+                <div class="card">
+                    <h3>Reducir</h3>
+
+                    <p>
+                        Evitemos consumir productos innecesarios y reduzcamos
+                        la cantidad de residuos que generamos.
+                    </p>
+
+                    <button>Ver acción</button>
+                </div>
+
+
+                <div class="card">
+                    <h3>Reutilizar</h3>
+
+                    <p>
+                        Demos una segunda oportunidad a los objetos antes
+                        de desecharlos.
+                    </p>
+
+                    <button>Ver acción</button>
+                </div>
+
+
+                <div class="card">
+                    <h3>Reciclar</h3>
+
+                    <p>
+                        Separemos correctamente los residuos para facilitar
+                        su transformación y aprovechamiento.
+                    </p>
+
+                    <button>Ver acción</button>
+                </div>
+
+                <div class="card">
+                    <h3 id="titulo">POLERA </h3>
+
+                    <p>Precio: Bs 80</p>
+
+                    <input type="number" id="cantidad" value="1" min="1">
+
+                    <button id="btnComprar">Agregar al carrito</button>
+
+
+                 <!--   <button id="btnAgregar">Agregar al carrito</button>
+                    <button id="btnCambiar">Cambiar título</button> -->
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- IMPORTANCIA -->
+        <section id="importancia" class="importancia">
+
+            <h2>¿Por qué es importante?</h2>
+
+            <p>
+                Cuidar el medio ambiente ayuda a proteger los recursos naturales,
+                reducir la contaminación y construir un futuro más sostenible.
+            </p>
+
+            <p>
+                Nuestras decisiones diarias pueden generar cambios positivos
+                cuando las realizamos de manera responsable.
+            </p>
+
+        </section>
+
+        <input type="text" id="nombre" placeholder="Ingrese su nombre">
+
+        <button id="btnEnviar">Enviar</button>
+
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+
+        <p>EcoVida © 2026</p>
+
+        <p>Proyecto educativo de Sistemas Informáticos</p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
